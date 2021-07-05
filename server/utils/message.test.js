@@ -23,7 +23,5 @@ describe('Generate Location Message', () => {
         
         expect(typeof message.createdAt).toBe('number');
         expect(message).toMatchObject({from, url});
-
-
     })
 })
